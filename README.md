@@ -2,7 +2,7 @@
 
 Trabalho Prático: Etapa 1 - Teste de Software
 
-Integrantes : Gabriel Cerqueira,Giovanni Gontijo,Rafael Nascimento 
+Integrantes : Gabriel Cerqueira,Giovanni Gontijo,Rafael Nascimento
 
 
 
