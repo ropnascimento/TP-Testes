@@ -36,7 +36,7 @@ describe('UserController', () => {
     controller = module.get<UserController>(UserController);
   });
 
-  describe('create', () => {
+  describe('createMock', () => {
     it('should create a user', async () => {
       const DEFAULT_PASSWORD = '123456';
       const createUserDtoMock: SanitizedUser = {
@@ -71,7 +71,7 @@ describe('UserController', () => {
     });
   });
 
-  describe('find one', () => {
+  describe('find oneMock', () => {
     it('should return one user', async () => {
       const id = '64f1fd4b1d5d8bc5650b85c3';
       const user: SanitizedUser = {
@@ -101,7 +101,7 @@ describe('UserController', () => {
     });
   });
 
-  describe('update', () => {
+  describe('updateMock', () => {
     it('should update a user', async () => {
       const id = '64f1fd4b1d5d8bc5650b85c3';
       const updateUserDtoMock: SanitizedUser = {
@@ -137,7 +137,7 @@ describe('UserController', () => {
     });
   });
 
-  describe('remove', () => {
+  describe('removeMock', () => {
     it('should remove a user', async () => {
       const id = '64f1fd4b1d5d8bc5650b85c3';
 
